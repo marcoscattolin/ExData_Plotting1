@@ -18,7 +18,7 @@ par(mfcol=c(2,2))
 plot(data$Date,data$Global_active_power, type="l",ylab="Global Active Power",xlab="")
 
 
-#make plot in top left, legend border not visible
+#make plot in top left, legend border not visible, legend font adjusted
 plot(data$Date,data$Sub_metering_1, type="l",ylab="Energy sub metering",xlab="")
 lines(data$Date,data$Sub_metering_2, type="l", col="red")
 lines(data$Date,data$Sub_metering_3, type="l", col="blue")
